@@ -1,0 +1,17 @@
+[package]
+name = "anabin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.2"
+actix-web = "4.3.1"
+chrono = "0.4.24"
+futures = "0.3.28"
+may = "0.3.42"
+md5 = "0.7.0"
+mongodb = "2.5.0"
+rand = "0.8.5"
+serde = { version = "1.0.160", features = ["derive"] }
